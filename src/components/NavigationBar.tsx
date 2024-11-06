@@ -14,8 +14,8 @@ const TextLink = ({href, label}: {href: string, label: string}) => {
     const now_page: boolean = pathname === `${href}`;
     
     return (
-        <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="w-full flex py-3 px-3 border-b-2 sm:border-0" style={{borderColor: "#2f2f2f"}}>
-            <Link href={href}>
+        <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="w-full flex border-b-2 sm:border-0" style={{borderColor: "#2f2f2f"}}>
+            <Link href={href} className="w-full py-3 px-3">
                 <span style={{
                 color: isHovering||now_page ? "#FFFFFF" : "#BBBBBB",
                 fontSize: "clamp(1.2rem, 2.3vw, 1.4rem)",
@@ -49,14 +49,16 @@ const IconLink = ({href, icon}: {href: string, icon: string}) => {
 export default function NavigationBar() {
     const pathname = usePathname();
     const [isMenuExpand, setMenuExpand] = useState(false);
-    const [windowWidth, setWindowWidth] = useState(1000);
+    const [windowWidth, setWindowWidth] = useState(1920);
 
     useEffect(()=> {
         window.addEventListener('resize', ()=> {
             // console.log(window.innerHeight, window.innerWidth)
             setWindowWidth(window.innerWidth)
         })
-     }, [])
+        // console.log(window.innerHeight, window.innerWidth)
+        setWindowWidth(window.innerWidth)
+    }, [])
 
     return (
         <div className="w-full flex flex-col sm:flex-row justify-between items-center max-w-6xl mx-auto px-4 py-3 sm:px-6"
