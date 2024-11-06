@@ -1,0 +1,12 @@
+--2024-11-05 15:14:20--  https://drive.usercontent.google.com/download?id=1ckK9IzWxVI7rXHlvIpRwf2TLs35IgCEG
+Resolving drive.usercontent.google.com (drive.usercontent.google.com)... 2404:6800:4012:7::2001, 142.250.66.65
+Connecting to drive.usercontent.google.com (drive.usercontent.google.com)|2404:6800:4012:7::2001|:443... failed: Network is unreachable.
+Connecting to drive.usercontent.google.com (drive.usercontent.google.com)|142.250.66.65|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2370 (2.3K) [text/html]
+Saving to: ‘download?id=1ckK9IzWxVI7rXHlvIpRwf2TLs35IgCEG’
+
+download?id=1ckK9IzWxVI7rXHlvIpRwf2TLs35Ig   0%[                                                                                         ]       0  --.-KB/s               download?id=1ckK9IzWxVI7rXHlvIpRwf2TLs35Ig 100%[========================================================================================>]   2.31K  --.-KB/s    in 0s      
+
+2024-11-05 15:14:23 (26.7 MB/s) - ‘download?id=1ckK9IzWxVI7rXHlvIpRwf2TLs35IgCEG’ saved [2370/2370]
+
