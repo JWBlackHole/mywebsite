@@ -49,7 +49,7 @@ const IconLink = ({href, icon}: {href: string, icon: string}) => {
 export default function NavigationBar() {
     const pathname = usePathname();
     const [isMenuExpand, setMenuExpand] = useState(false);
-    const [windowWidth, setWindowWidth] = useState(0);
+    const [windowWidth, setWindowWidth] = useState(1000);
 
     useEffect(()=> {
         window.addEventListener('resize', ()=> {
