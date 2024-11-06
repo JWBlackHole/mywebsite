@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import Head from "next/head";
 import "./globals.css";
 
 import NavigationBar from "@/components/NavigationBar";
@@ -33,13 +32,15 @@ export default function RootLayout({
         <link rel="icon" href="/blackhole.ico" />
       </head>
       <body className={`flex flex-col ${geistSans.variable} ${geistMono.variable}`}>
-        <div className="absolute w-full">
+        <div className="fixed w-full">
           <NavigationBar/>
         </div>
         <div className="pt-20">
           {children}
         </div>
-        <Footer/>
+        <div>
+          <Footer/>
+        </div>
       </body>
     </html>
   );
