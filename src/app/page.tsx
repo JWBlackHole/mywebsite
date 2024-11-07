@@ -1,23 +1,11 @@
 "use client";
 
 import { useState } from "react";
-
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from "next/link";
 import Image from "next/image";
 
-const HL = ({children}: {children: string}) => {
-  return (
-    <span style={{
-      fontWeight: "bold",
-      textDecoration           : "underline solid #d134fdff",
-      textDecorationThickness  : "3px",
-      WebkitTextDecorationColor: "#d134fdff",
-      WebkitTextDecorationLine : "underline",
-      WebkitTextDecorationStyle: "solid"
-    }}>{children}</span>
-  )
-}
+import { HL } from "@/components/Texts";
 
 const LinkedButton = ({icon, text, href, color, colorHovered}: {icon: string, text: string, href: string, color: string, colorHovered: string}) => {
   const [isHovering, setIsHovered] = useState(false);
@@ -37,17 +25,17 @@ const LinkedButton = ({icon, text, href, color, colorHovered}: {icon: string, te
 
 export default function Home() {
   return (
-    <div className="w-10/12 md:w-4/5 flex flex-col items-center justify-between max-w-5xl mx-auto px-4 py-3 sm:px-6 my-20">
+    <div className="flex flex-col items-center justify-between max-w-5x sm:mx-8 md:mx-16 lg:mx-32">
       <div className="mb-8" style={{borderRadius: '100px', overflow: 'hidden'}}>
         <Image src={"/square_pic.jpg"} alt={"My Pic"} width={180} height={180} />
       </div>
       <div className="mb-2">
-        <span style={{fontWeight: "800", fontSize: "clamp(2rem , 5vw, 3rem)"}}>Blackhole Lin</span>
+        <span style={{fontWeight: "800", fontSize: "clamp(2rem , 5vw, 3rem)"}}>William Lin</span>
       </div>
       <div className="mx-0 sm:mx-5 md:mx-10 mb-5">
         <span style={{fontSize: "clamp(1.3rem , 3vw, 1.8rem)"}}>
-          Dedicated <HL>EECS</HL> student at <Link href="https://www.nthu.edu.tw/"><HL>NTHU</HL></Link> with expertise in <HL>Data processing</HL> and <HL>Machine/Deep Learning</HL>.
-          Also experienced in <HL>Algorithms and Data Structures</HL>. Would like to share some news and cool techniques.&#128573;
+          Dedicated <HL>EECS</HL> student at <Link href="https://www.nthu.edu.tw/"><HL>NTHU</HL></Link> with expertise in <HL>Data Processing</HL> and <HL>Machine Learning</HL>.
+          Would like to share some news and cool techniques.&#128521;
         </span>
       </div>
       <div className="w-4/5 md:w-3/5 flex flex-col sm:flex-row gap-5 justify-center">
