@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Employment = ({title, employer, date}: {title: string, employer: string, date: string}) => {
     return (
-        <div className="mb-2">
+        <div>
             <div className="flex flex-wrap justify-between items-center">
                 <RegularText>{title}</RegularText>
-                <div className="flex flex-row gap-2 w-full lg:w-auto justify-between">
+                <div className="flex flex-row gap-2 w-full xl:w-auto justify-between">
                     <Supplement>{employer}</Supplement>
                     <div className="flex-none">
                         <Supplement>{date}</Supplement>
@@ -19,7 +19,7 @@ const Employment = ({title, employer, date}: {title: string, employer: string, d
 
 export default function Page(){
     return (
-        <div className="flex flex-col max-w-5xl mx-auto md:mx-10c">
+        <div className="w-100 sm:w-11/12 md:w-10/12 lg:w-8/12 w-flex flex-col max-w-2xl mx-auto">
             <div className="flex md:justify-center mb-5 sm:mb-10">
                 <Title>About Me</Title>
                 {/* <div className="w-full md:w-auto md:ml-4"><Title>William Lin</Title></div> */}
@@ -43,16 +43,30 @@ export default function Page(){
                 <div className="mb-2 sm:mb-4">
                     <SubTitle>Employment</SubTitle>
                 </div>
-                <Employment title="Software Engineer Intern" employer="Delta Electronics, Inc."    date="2024.07 ~ present"/>
-                <Employment title="Full-stack Developer"     employer="NTHU Garage, Sport JioJio" date="2023.09 ~ 2024.08"/>
+                <div className="gap-2">
+                    <Employment title="Software Engineer Intern" employer="Delta Electronics, Inc."    date="2024.07 ~ present"/>
+                    <Employment title="Full-stack Developer"     employer="NTHU Garage, Sport JioJio" date="2023.09 ~ 2024.08"/>
+                </div>
             </div>
 
-            <div>
+            <div className="mb-6 sm:mb-10">
                 <div className="mb-2 sm:mb-4">
                     <SubTitle>Project</SubTitle>
                 </div>
-                <div>
+                <div className="flex flex-col gap-2">
                     <RegularText>Decoding MEG Brain Waves: A Comparative Analysis of ML Model Performance</RegularText>
+                    <Supplement>{`- Explored the comparative performance of various machine learning models in decoding magnetoencephalography (MEG) brain wave data, provideing insights into model selection for neural decoding tasks.`}</Supplement>
+                </div>
+            </div>
+
+            <div className="mb-6 sm:mb-10">
+                <div className="mb-2 sm:mb-4">
+                    <SubTitle>CLUB</SubTitle>
+                </div>
+                <div className="flex flex-col">
+                    <RegularText>{`NTHU Google Developer Student Club(GDSC)`}</RegularText>
+                    <RegularText>{`NTHU Garage`}</RegularText>
+                    <RegularText>{`NTHU Blockchain Club`}</RegularText>
                 </div>
             </div>
 

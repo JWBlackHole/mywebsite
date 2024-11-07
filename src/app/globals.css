@@ -26,7 +26,7 @@ body {
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 12px;
+  width: clamp(1rem, 1vw, 2rem);
 }
 
 *::-webkit-scrollbar-track {
