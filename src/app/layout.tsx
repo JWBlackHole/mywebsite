@@ -38,7 +38,7 @@ export default function RootLayout({
         <div className="pt-20 min-h-screen w-10/12 md:w-4/5 my-10 sm:my-20">
           {children}
         </div>
-        <div>
+        <div className="w-full">
           <Footer/>
         </div>
       </body>

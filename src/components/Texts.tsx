@@ -15,7 +15,7 @@ export const Title = ({children}: {children: any}) => {
     return (
       <span
       style={{
-        fontWeight: "700",
+        fontWeight: "800",
         fontSize: "clamp(2rem , 6vw, 3rem)"
       }}
       >{children}</span>
@@ -27,7 +27,7 @@ export const SubTitle = ({children}: {children: any}) => {
       <span
       style={{
         fontWeight: "600",
-        fontSize: "clamp(2rem , 5vw, 2.5rem)"
+        fontSize: "clamp(1.6rem , 5vw, 2rem)"
       }}
       >{children}</span>
     );
@@ -37,8 +37,20 @@ export const RegularText = ({children}: {children: any}) => {
   return (
     <span
     style={{
+      fontWeight: "500",
+      fontSize: "clamp(1.2rem , 3vw, 1.5rem)"
+    }}
+    >{children}</span>
+  );
+}
+
+export const Supplement = ({children}: {children: any}) => {
+  return (
+    <span
+    style={{
+      color: "#888888",
       fontWeight: "400",
-      fontSize: "clamp(1.1rem , 3vw, 1.5rem)"
+      fontSize: "clamp(1rem , 2.5vw, 1.2rem)"
     }}
     >{children}</span>
   );
