@@ -28,7 +28,7 @@ export default function Page(){
             <div className="mb-6 sm:mb-10">
                 <div className="mb-4 sm:mb-8">
                     <RegularText>
-                        Hello, it's <HL>William Lin</HL>, a Taiwan boy who always holds <HL>curiosity</HL> &#128526;.
+                        Hello, it's <HL>William Lin</HL>, a coding ninja, as well as a Taiwan boy who always holds curiosity &#128526;
                     </RegularText>
                 </div>
                 <div>

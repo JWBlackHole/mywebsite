@@ -1,3 +1,5 @@
+import { HL, RegularText } from "@/components/Texts";
+
 export default function Page(){
-    return <p>Blog</p>;
+    return <RegularText>Nothing yet, but coming soon...</RegularText>;
 }
