@@ -35,7 +35,7 @@ export default function RootLayout({
         <div className="fixed w-full">
           <NavigationBar/>
         </div>
-        <div className="pt-20 min-h-screen w-10/12 md:w-4/5 my-10 sm:my-20">
+        <div className="flex flex-col items-center pt-20 min-h-screen w-10/12 md:w-4/5 my-10 sm:my-20">
           {children}
         </div>
         <div className="w-full">

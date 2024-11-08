@@ -25,7 +25,7 @@ const LinkedButton = ({icon, text, href, color, colorHovered}: {icon: string, te
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-between max-w-5x sm:mx-8 md:mx-16 lg:mx-32">
+    <div className="flex flex-col items-center justify-between max-w-5x sm:w-11/12 md:w-10/12">
       <div className="mb-8" style={{borderRadius: '100px', overflow: 'hidden'}}>
         <Image src={"/square_pic.jpg"} alt={"My Pic"} width={180} height={180} />
       </div>

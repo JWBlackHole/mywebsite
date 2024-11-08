@@ -27,7 +27,7 @@ export const SubTitle = ({children}: {children: any}) => {
       <span
       style={{
         fontWeight: "600",
-        fontSize: "clamp(1.6rem , 5vw, 2rem)"
+        fontSize: "clamp(1.4rem , 5vw, 2rem)"
       }}
       >{children}</span>
     );
@@ -48,7 +48,7 @@ export const Supplement = ({children}: {children: any}) => {
   return (
     <span
     style={{
-      color: "#888888",
+      color: "#999999",
       fontWeight: "400",
       fontSize: "clamp(1rem , 2.5vw, 1.2rem)"
     }}
