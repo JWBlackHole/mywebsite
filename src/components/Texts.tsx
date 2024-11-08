@@ -27,7 +27,7 @@ export const SubTitle = ({children}: {children: any}) => {
       <span
       style={{
         fontWeight: "600",
-        fontSize: "clamp(1.4rem , 5vw, 2rem)"
+        fontSize: "clamp(1.6rem , 4vw, 2rem)"
       }}
       >{children}</span>
     );

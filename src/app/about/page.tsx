@@ -64,7 +64,7 @@ export default function Page(){
                     <SubTitle>CLUBS</SubTitle>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <RegularText>{`NTHU Google Developer Student Club(GDSC)`}</RegularText>
+                    <RegularText>{`NTHU Google Developer Student Club`}</RegularText>
                     <RegularText>{`NTHU Garage`}</RegularText>
                     <RegularText>{`NTHU Blockchain Club`}</RegularText>
                 </div>

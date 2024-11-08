@@ -29,8 +29,9 @@ export default function Home() {
       <div className="mb-8" style={{borderRadius: '100px', overflow: 'hidden'}}>
         <Image src={"/square_pic.jpg"} alt={"My Pic"} width={180} height={180} />
       </div>
-      <div className="mb-2">
-        <span style={{fontWeight: "800", fontSize: "clamp(2rem , 5vw, 3rem)"}}>William Lin</span>
+      <div className="flex flex-col items-center mb-4">
+        <span style={{fontWeight: "800", fontSize: "clamp(2rem, 5vw, 3rem)"}}>William Lin</span>
+        <span style={{fontWeight: "600", fontSize: "clamp(1rem, 2.5vw, 1.5rem)"}}>Developer / Student</span>
       </div>
       <div className="mx-0 sm:mx-5 md:mx-10 mb-5">
         <span style={{fontSize: "clamp(1.3rem , 3vw, 1.8rem)"}}>
