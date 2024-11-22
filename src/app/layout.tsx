@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Blackhole Lin",
+  title: "William Lin",
   description: "Website hosted by Blackhole Lin",
 };
 

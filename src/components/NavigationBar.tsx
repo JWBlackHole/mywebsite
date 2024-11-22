@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 import Link from 'next/link';
 import Image from "next/image";
 
-const TextLink = ({onClick, href, label}: {onClick: Function, href: string, label: string}) => {
+const TextLink = ({onClick, href, label}: {onClick: any, href: string, label: string}) => {
     const pathname = usePathname();
     const [isHovering, setIsHovered] = useState(false);
     const onMouseEnter = () => setIsHovered(true);

@@ -1,4 +1,4 @@
-import { HL, Title, SubTitle, RegularText, Supplement } from "@/components/Texts";
+import { HL, Title, RegularText } from "@/components/Texts";
 import Link from "next/link";
 
 export default function Page(){

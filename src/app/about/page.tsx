@@ -28,12 +28,12 @@ export default function Page(){
             <div className="mb-6 sm:mb-10">
                 <div className="mb-4 sm:mb-8">
                     <RegularText>
-                        Hello, it's <HL>William Lin</HL>, a coding ninja, as well as a Taiwan boy who always holds curiosity &#128526;
+                        Hello, it&apos;s <HL>William Lin</HL>, a coding ninja, as well as a Taiwan boy who always holds curiosity &#128526;
                     </RegularText>
                 </div>
                 <div>
                     <RegularText>
-                        I'm currently an <Link href="https://u-eecs.site.nthu.edu.tw/"><HL>NTHU EECS</HL></Link> student, passionate about Data Science and Machine Learning,
+                        I&apos;m currently an <Link href="https://u-eecs.site.nthu.edu.tw/"><HL>NTHU EECS</HL></Link> student, passionate about Data Science and Machine Learning,
                         as well as a <HL>SWE Intern</HL> at <Link href="https://www.deltaww.com/en-US/index"><HL>Delta Electronics</HL></Link> since 2024.07.
                     </RegularText>
                 </div>

@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="w-4/5 md:w-3/5 flex flex-col sm:flex-row gap-5 justify-center">
         <LinkedButton icon="charm:github" text="Github"   href="https://github.com/JWBlackHole"                                      color="#333333" colorHovered="#555555"/>
-        <LinkedButton icon="uil:linkedin" text="LinkedIn" href="https://www.linkedin.com/in/%E6%99%89%E6%9A%90-%E6%9E%97-1b3a29261/" color="#003380" colorHovered="#0047b3"/>
+        <LinkedButton icon="uil:linkedin" text="LinkedIn" href="https://www.linkedin.com/in/william-lin-1b3a29261/" color="#003380" colorHovered="#0047b3"/>
       </div>
     </div>
   );
