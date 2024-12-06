@@ -9,7 +9,7 @@ export default function Page(){
             </div>
             <div className="flex flex-col gap2 sm:gap-4">
                 <RegularText>Now I am a <HL>NTHU</HL> student, so maybe you can find me on compus &#128541;</RegularText>
-                <RegularText>Or you can just reach me out through this email <Link href="mailto:10williamlin@gmail.com"><HL>williamlin@gmail.com</HL></Link></RegularText>
+                <RegularText>Or you can just reach me out through this email <Link href="mailto:10williamlin0208@gmail.com"><HL>williamlin@gmail.com</HL></Link></RegularText>
             </div>
         </div>
     );
