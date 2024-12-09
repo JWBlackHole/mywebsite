@@ -3,6 +3,11 @@ import React, { useEffect, useState } from 'react';
 
 import PostItem    from "@/components/PostItem";
 import { RegularText } from "@/components/Texts";
+import { IntegerType } from 'mongodb';
+
+const PostItems = ({n}: {n: Number}) => {
+    return ([...Array(n)].map((e, i) => <PostItem key={i}/>));
+}
 
 export default function Page(){
     const [loading, setLoading] = useState(true);
@@ -25,7 +30,7 @@ export default function Page(){
     // return <RegularText>{loading ? "Loading..." : "Loading Finished"}</RegularText>;
     return (
         <div>
-            <PostItem/>
+            <PostItems n={8} />
         </div>
     )
 }
