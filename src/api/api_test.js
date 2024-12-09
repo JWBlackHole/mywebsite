@@ -3,19 +3,19 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
 
-const MONGODB_ACCOUNT = process.env.MONGODB_ACCOUNT;
-const MONGODB_PASSWD  = process.env.MONGODB_PASSED;
-const uri = `mongodb+srv://${MONGODB_ACCOUNT}:${MONGODB_PASSWD}@myblog.ut0xs.mongodb.net/?retryWrites=true&w=majority&appName=MyBlog`;
+const api_uri = process.env.MONGODB_URI
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
+const client = new MongoClient(api_uri, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
     deprecationErrors: true,
   }
 });
-async function run() {
+
+export async function run() {
+  console.log(MONGODB_ACCOUNT, MONGODB_APPNAME);
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
@@ -27,4 +27,3 @@ async function run() {
     await client.close();
   }
 }
-run().catch(console.dir);

@@ -11,6 +11,9 @@ importers:
       mongodb:
         specifier: ^6.11.0
         version: 6.11.0
+      net:
+        specifier: ^1.0.2
+        version: 1.0.2
       next:
         specifier: 15.0.2
         version: 15.0.2(react-dom@19.0.0-rc-02c0e824-20241028(react@19.0.0-rc-02c0e824-20241028))(react@19.0.0-rc-02c0e824-20241028)
@@ -1208,6 +1211,9 @@ packages:
 
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+
+  net@1.0.2:
+    resolution: {integrity: sha512-kbhcj2SVVR4caaVnGLJKmlk2+f+oLkjqdKeQlmUtz6nGzOpbcobwVIeSURNgraV/v3tlmGIX82OcPCl0K6RbHQ==}
 
   next@15.0.2:
     resolution: {integrity: sha512-rxIWHcAu4gGSDmwsELXacqAPUk+j8dV/A9cDF5fsiCMpkBDYkO2AEaL1dfD+nNmDiU6QMCFN8Q30VEKapT9UHQ==}
@@ -2991,6 +2997,8 @@ snapshots:
   nanoid@3.3.7: {}
 
   natural-compare@1.4.0: {}
+
+  net@1.0.2: {}
 
   next@15.0.2(react-dom@19.0.0-rc-02c0e824-20241028(react@19.0.0-rc-02c0e824-20241028))(react@19.0.0-rc-02c0e824-20241028):
     dependencies:
