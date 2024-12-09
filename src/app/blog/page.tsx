@@ -2,8 +2,6 @@
 import React, { useEffect, useState } from 'react';
 
 import PostItem    from "@/components/PostItem";
-import { RegularText } from "@/components/Texts";
-import { IntegerType } from 'mongodb';
 
 const PostItems = ({n}: {n: Number}) => {
     return ([...Array(n)].map((e, i) => <PostItem key={i}/>));
