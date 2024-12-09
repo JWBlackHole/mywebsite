@@ -55,3 +55,26 @@ export const Supplement = ({children}: {children: any}) => {
     >{children}</span>
   );
 }
+
+export const PostItemTitle = ({children}: {children: any}) => {
+  return (
+    <span
+    style={{
+      fontWeight: "800",
+      fontSize: "clamp(1.8rem , 4.5vw, 2.25rem)"
+    }}
+    >{children}</span>
+  );
+}
+
+export const PostItemSubTitle = ({children}: {children: any}) => {
+  return (
+    <span
+    style={{
+      color: "#999999",
+      fontWeight: "600",
+      fontSize: "clamp(1.2rem , 3vw, 1.5rem)"
+    }}
+    >{children}</span>
+  );
+}

@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 
+import PostItem    from "@/components/PostItem";
 import { RegularText } from "@/components/Texts";
 
 export default function Page(){
@@ -21,5 +22,10 @@ export default function Page(){
     }, []);
 
     // return <RegularText>Nothing yet, but coming soon...</RegularText>;
-    return <RegularText>{loading ? "Loading..." : "Loading Finished"}</RegularText>;
+    // return <RegularText>{loading ? "Loading..." : "Loading Finished"}</RegularText>;
+    return (
+        <div>
+            <PostItem/>
+        </div>
+    )
 }
