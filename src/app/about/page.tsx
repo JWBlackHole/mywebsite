@@ -38,6 +38,8 @@ export default function Page(){
                     </RegularText>
                 </div>
             </div>
+
+            <div className="h-5"></div>
             
             <div className="mb-6 sm:mb-10">
                 <div className="mb-2 sm:mb-3">
@@ -49,6 +51,8 @@ export default function Page(){
                 </div>
             </div>
 
+            <div className="h-5"></div>
+
             <div className="mb-6 sm:mb-10">
                 <div className="mb-2 sm:mb-3">
                     <SubTitle>PROJECT</SubTitle>
@@ -58,6 +62,8 @@ export default function Page(){
                     <Supplement>{`- Explored the comparative performance of various machine learning models in decoding magnetoencephalography (MEG) brain wave data, provideing insights into model selection for neural decoding tasks.`}</Supplement>
                 </div>
             </div>
+
+            <div className="h-5"></div>
 
             <div className="mb-6 sm:mb-10">
                 <div className="mb-2 sm:mb-3">
@@ -69,6 +75,8 @@ export default function Page(){
                     <RegularText>{`NTHU Blockchain Club`}</RegularText>
                 </div>
             </div>
+
+            <div className="h-5"></div>
 
             <div className="mb-6 sm:mb-10">
                 <div className="mb-2 sm:mb-3">
